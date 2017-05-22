@@ -1,0 +1,9 @@
+{
+	"name" : "FAK-Notifier",
+	"description" : "Show a hint when you revived with around FAKs.",
+	"author" : "Slash Nephy",
+	"version" : "1.0.0",
+	"hooks" : [
+		{"script_path" : "loader.lua", "hook_id" : "lib/units/beings/player/playerdamage"}
+	]
+}
